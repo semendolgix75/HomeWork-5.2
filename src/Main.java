@@ -20,9 +20,9 @@ public class Main
 
         testWord=testWord.toLowerCase().replaceAll(" ","");
         boolean result=true;
-        for (int i=0;i<testWord.lenght()/2;i++)
+        for (int i=0;i<testWord.length()/2;i++)
         {
-            if(testWord.charAt(i)!=testWord.charAt(testWord.lenght()-i-1))
+            if(testWord.charAt(i)!=testWord.charAt(testWord.length()-i-1))
             {
                 result=false;
                 break;
